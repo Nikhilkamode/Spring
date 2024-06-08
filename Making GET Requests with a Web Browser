@@ -25,3 +25,8 @@ The server, upon receiving this GET request, should return a response that looks
     },
   ]
 }
+
+One common way to send a GET request is by typing the URL – the HTTP endpoint – into your local web browser. For example, when a user types http://www.mypetclinic.com/dogs/ into the address bar, the browser
+
+Makes a GET request (GET http://www.mypetclinic.com/dogs/) that retrieves the dogs resource (i.e. the file containing the list of dog intakes) and
+Displays the response on the browser page. In doing so, the user confirms that the HTTP endpoint is working – that the GET request is retrieving the requested resources from the Spring server.
