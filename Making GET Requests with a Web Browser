@@ -1,0 +1,27 @@
+Like any web framework that uses HTTP, Spring enables us to respond to GET requests, a method that retrieves the requested information from the server. That information is relayed back to the client and displayed on the browser. Whenever a user navigates to a website or clicks on a URL link, for example, they are initiating a GET request.
+
+Let’s take a look at an example. Imagine we are working with an online system that is keeping track of dog patient intakes for a pet clinic. The website address is http://www.mypetclinic.com/dogs/ , where dogs is the resource containing a list of dog objects. In REST environments, the client can access the dogs resource through this GET request:
+
+GET http://www.mypetclinic.com/dogs/ 
+
+The server, upon receiving this GET request, should return a response that looks something like this:
+
+{
+  "dogs": [
+    {
+      "id": 1,
+      "name": "Bella",
+      "breed": "Golden Retriever"
+    },
+    {
+      "id": 2,
+      "name": "Max",
+      "breed": "Bulldog"
+    },
+    {
+      "id": 3,
+      "name": "Ruby",
+      "breed": "Poodle"
+    },
+  ]
+}
