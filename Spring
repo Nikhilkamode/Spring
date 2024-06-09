@@ -1,0 +1,5 @@
+The most important feature of the spring framework is dependency injection. At the core of all spring modules is dependency injection or IOC (Inversion of Control)
+
+Dependency injection is a programming technique that makes a class independent  of its dependencies.
+
+Inversion of Control is the mechanism  to achieve loose -coupling between objects' dependencies
